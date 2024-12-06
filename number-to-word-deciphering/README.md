@@ -4,22 +4,16 @@
 
 Create a program that maps numeric sequences to valid words by assigning unique digits to letters using a given dictionary.
 
----
-
 ## Requirements
 1. **Command-line Input**: Accept sequences of numbers.
 2. **Letter-Digit Mapping**: Assign each digit (0-9) to a unique uppercase letter.
 3. **Dictionary Validation**: Verify that generated words exist in an uppercase version of `dictionary.txt`.
 4. **Performance Metrics**: Display total solutions found, CPU time, dictionary lookups, and completed permutations.
 
----
-
 ## Complexity
 Given `r` distinct digits, the number of possible permutations is:
 
 26! / (26 - r)!
-
----
 
 ## Sample Commands & Outputs
 

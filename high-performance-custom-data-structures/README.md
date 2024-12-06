@@ -4,8 +4,6 @@
 
 This project involves developing a high-performance C program for managing a large set of integers. The program efficiently handles various operations such as finding, adding, deleting, and determining the predecessor and successor of integers in a data structure. The program also includes performance metrics and data compression techniques.
 
----
-
 ## Problem Description
 
 The ACE software development company requires a program that:
@@ -37,8 +35,6 @@ find           9995247          2.338336
 add            10001423         2.346919
 ...
 
----
-
 ## Features
 
 ### Supported Operations
@@ -50,15 +46,11 @@ add            10001423         2.346919
 ### Testing Mode
 When `n` is negative, the program enters a mode demonstrating the correct results of all operations.
 
----
-
 ## Performance and Data Compression
 - **Efficient Search Techniques**: Avoid sequential search for speed.
 - **Dynamic Data Management**: Support efficient add/delete operations post-initialisation.
 - **Real-time Min/Max Retrieval**: Always accessible in constant time.
 - **Data Compression**: Investigate compression methods to reduce memory usage and assess their impact on performance.
-
----
 
 ## Sample Outputs
 

@@ -4,8 +4,6 @@
 
 Develop a program that manipulates a word-guessing game by dynamically selecting word categories to maximise the computer's advantage over the human player.
 
----
-
 ## Game Rules
 1. One player selects a secret word and displays dashes representing the word’s length.
 2. The other player guesses letters.
@@ -14,8 +12,6 @@ Develop a program that manipulates a word-guessing game by dynamically selecting
 
 ### Program Strategy
 Instead of selecting a single word, the program categorises words based on guessed letters and chooses the largest remaining category to mislead the human player.
-
----
 
 ## Implementation Requirements
 1. **Command-line Arguments**: Accept a dictionary file, word length, and number of guesses.
@@ -26,8 +22,6 @@ Instead of selecting a single word, the program categorises words based on guess
   - Partition words into categories and eliminate non-matching words.
   - Deduct a guess if no letters match the category.
   - End the game when the player wins or runs out of guesses.
-
----
 
 ## Examples
 
