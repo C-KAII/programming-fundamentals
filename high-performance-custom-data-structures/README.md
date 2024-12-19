@@ -1,4 +1,4 @@
-# Programming Fundamentals - High Performant Custom Data Structures
+# Programming Fundamentals - High Performance Custom Data Structures
 
 ## Overview
 
